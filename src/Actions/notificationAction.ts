@@ -1,6 +1,6 @@
 import { types } from "../Types/types"
 
-export const notificationAction = (value) => {
+export const notificationAction = (value:string) => {
     if(value === 'true'){
         return {
             type: types.NOTIFICATION_ON,

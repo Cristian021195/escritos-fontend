@@ -1,6 +1,6 @@
 import { types } from "../Types/types"
 
-export const themeAction = (value) => {
+export const themeAction = (value:string) => {
     
     if(value === 'claro'){
         return {

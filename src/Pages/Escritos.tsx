@@ -5,7 +5,7 @@ import { DataURL } from '../Helpers/DataURL';
 import { useFetch } from '../Hooks/useFetch'
 
 export const Escritos = () => {
-  const {data,errors,loading} = useFetch(`${DataURL.local}/escritos`);
+  const {data,errors,loading} = useFetch(`${DataURL.public}/escritos`);
   return (//d-flex justify-content-center row p-4
     <div className='animate__animated animate__fadeInUp'>
       <h1 className='text-center my-6'>Mis Escritos</h1>

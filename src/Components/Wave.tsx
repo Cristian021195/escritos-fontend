@@ -2,10 +2,9 @@ import React from "react";
 
 interface IWave{
   backgroundColor:string
-  ancho:number
 }
 
-export function Wave({backgroundColor, ancho}:IWave) {
+export function Wave({backgroundColor}:IWave) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="240" viewBox="0 0 1440 240" preserveAspectRatio="none">
       <path
